@@ -5,11 +5,14 @@ Variables
 */
 :root {
   --primaryLightColor: #d4e6a5;
-  --primaryColor: #476a2e;
+  --primaryColor: #cc7a00;
+  --secondaryColor: #ff9900;
   --primaryDarkColor: #c02c03;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
-  --mainBackground: #f1f5f8;
+  --mainLila: #800040;
+  --lightlLila: #cc0066;
+  --mainBackground: #660033;
   --mainOverlay: rgba(35, 10, 36, 0.4);
   --mainBlack: #222;
   --mainGrey: #ececec;
@@ -36,9 +39,9 @@ Global Styles
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: var(--mainBlack);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: var(--primaryColor);
   background: var(--mainBackground);
   line-height: 1.4;
   font-size: 1rem;
@@ -62,7 +65,7 @@ ul {
 }
 a {
   text-decoration: none;
-  color: var(--mainBlack);
+  color: var(--primaryColor);
 }
 img {
   width: 100%;
@@ -132,7 +135,7 @@ Navbar
 ======
 */
 .navbar {
-  background: var(--mainWhite);
+  background: var(--mainLila);
   height: 5rem;
   display: flex;
   align-items: center;
@@ -163,10 +166,10 @@ Navbar
   transition: var(--mainTransition);
 }
 .nav-links a:hover {
-  color: var(--primaryColor);
+  color: var(--secondaryColor);
 }
 .logo {
-  width: 12rem;
+  width: 24rem;
 }
 /* 
 ====== 
@@ -298,10 +301,11 @@ Form
   width: 100%;
   border: none;
   border-color: transparent;
-  background: var(--mainBackground);
+  background: var(--mainLila);
   border-radius: var(--mainBorderRadius);
   padding: 0.5rem;
   font-size: 1.2rem;
+  color: var(--primaryColor);
 }
 /* 
 ====== 
@@ -375,7 +379,7 @@ Cocktail
 .loader:after {
   position: absolute;
   top: 0;
-  content: '';
+  content: "";
 }
 .loader:before {
   left: -1.5em;
