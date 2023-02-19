@@ -20,7 +20,7 @@ Variables
   --mainRed: #bd0303;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 0.3rem;
-  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  --lightShadow: 8px 14px 10px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
   --mainBorderRadius: 0.25rem;
   --smallWidth: 85vw;
@@ -169,7 +169,7 @@ Navbar
   color: var(--secondaryColor);
 }
 .logo {
-  width: 24rem;
+  width: 22rem;
 }
 /* 
 ====== 
@@ -293,7 +293,7 @@ Form
 .form-control label {
   display: block;
   margin-bottom: 1.25rem;
-  font-weight: bold;
+  font-weight: 900;
   letter-spacing: 0.25rem;
   color: var(--primaryColor);
 }
@@ -305,7 +305,7 @@ Form
   border-radius: var(--mainBorderRadius);
   padding: 0.5rem;
   font-size: 1.2rem;
-  color: var(--primaryColor);
+  color: var(--secondaryColor);
 }
 /* 
 ====== 
