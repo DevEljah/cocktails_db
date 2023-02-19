@@ -11,8 +11,8 @@ Variables
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainLila: #800040;
-  --lightlLila: #cc0066;
-  --mainBackground: #660033;
+  --darklLila: #660033;
+  --mainBackground: #4d0026;
   --mainOverlay: rgba(35, 10, 36, 0.4);
   --mainBlack: #222;
   --mainGrey: #ececec;
@@ -334,7 +334,7 @@ Cocktail
   margin-right: 0.5rem;
 }
 .drink-data {
-  background: var(--primaryLightColor);
+  background: var(--darklLila);
   padding: 0.25rem 0.5rem;
   border-radius: var(--mainBorderRadius);
   color: var(--primaryColor);
